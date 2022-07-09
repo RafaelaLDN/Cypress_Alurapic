@@ -6,7 +6,7 @@ describe('Login de ususarios alura pic', () => {
 
     })
     it('fazer login de usuario valido', () => {
-        cy.login('rafaela', '12345678')
+        cy.login('flavio', '123')
         cy.contains('a', '(Logout)').should('be.visible');
         
     })
